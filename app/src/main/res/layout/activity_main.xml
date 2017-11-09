@@ -9,6 +9,7 @@
     android:paddingTop="85dp"
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
+    android:id="@+id/activity_main"
     tools:context="com.example.nasrf.niceappui.MainActivity">
 
     <LinearLayout
@@ -46,6 +47,14 @@
             android:text="LOGIN"
             android:layout_width="190dp"
             android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_gravity="center"
+            style="@style/Button_style"
+            android:text="SIGNUP"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:onClick="signup"/>
 
         <TextView
             style="@style/TextView_style"
